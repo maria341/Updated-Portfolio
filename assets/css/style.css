@@ -15,7 +15,7 @@ li a {
 
 .bgimg-1 {
     background-size: cover;
-    background: Linear-gradient( #ba382f, #33F3FF, #ba382f); 
+    background: Linear-gradient(#ba382f, #33F3FF, #ba382f); 
     min-height: 100%;
   }
    
@@ -86,7 +86,8 @@ li a {
   }
  
   p {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Georgia, Times, "Times New Roman", serif;
   }
  
  
@@ -131,7 +132,7 @@ li a {
     line-height: 30px;
     color: black;
     text-align: center;
-    background:#ba382f ;
+    background: #ba382f;
     border-bottom: 0;
   }
   
