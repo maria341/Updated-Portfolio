@@ -3,6 +3,11 @@ body, html {
     height: 100%;
   }
 
+  nav {
+    color: white;
+    background: white;
+  }
+
    /* Full height image header */
    .bgimg-1 {
     /*background-position: center;*/
@@ -20,32 +25,62 @@ body, html {
     margin-top: 150px;
   }
 
+  .arrow{
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    transform: rotate(90deg);
+    animation: bouncearrow 1s infinite;
+    color: #ffc728;
+  }
+
+@-webkit-keyframes bouncearrow{
+  0%{top: 0px;}
+  50%{top: 20px; color: #000000;}
+  100%{top: 0px;}
+}
+
+@keyframes bouncearrow{
+  0%{top: 0px;}
+  50%{top: 20px; color: #000000;}
+  100%{top: 0px;}
+}
+
   .heading1 {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
-    color: #4aaaa5;
+    color: #53b8b8;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
+    border-bottom-style: dotted;
    
   }
 
-  h2, h3 {
+  h2, h3{
     text-align: center;
     font-style: bold;
     font-size: 45px;
     font-display: "Georgia", "sans serif";
-  }
+   }
 
    /*about page*/
+
+   #about {
+    background-image: url("../images1/background2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
  
   p {
-    font-size: 15px;
+    font-size: 20px;
   }
  
  
   /*portfolio page*/
-
+  
   .work {
     position: relative;
     float: left;
@@ -185,15 +220,14 @@ body, html {
   
  /*Footer*/
 
- footer {
-  padding: 30px 0;
-  clear: both;
-  font-size: 12px;
-  color: #ffffff;
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #666666;
   color: #cccccc;
   text-align: center;
-  background: #666666;
   border-top: 8px solid #4aaaa5;
-  height: 50px;
+  height: 35px;
 }
-
