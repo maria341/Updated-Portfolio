@@ -5,9 +5,9 @@ body, html {
 
    /* Full height image header */
    .bgimg-1 {
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
-    background-image: url("../images/background.jpg");
+    background: Linear-gradient( #DBFF33, #ba382f, #33F3FF); 
     min-height: 100%;
   }
    
@@ -20,11 +20,126 @@ body, html {
     margin-top: 150px;
   }
 
+  .heading1 {
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+   
+  }
+
   h2, h3 {
     text-align: center;
     font-style: bold;
     font-size: 45px;
     font-display: "Georgia", "sans serif";
+  }
+
+   /*about page*/
+ 
+  p {
+    font-size: 15px;
+  }
+ 
+ 
+  /*portfolio page*/
+
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 20px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 10px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #5DB6AC;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  /*Contact Page*/
+
+  #main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 80px);
+  }
+  
+  .main-section {
+    float: left;
+    width: 50%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #5DB6AC;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #5DB6AC;
+    border: 0 none;
+    margin-top: 10px;
   }
 
   .icons {
@@ -33,8 +148,6 @@ body, html {
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-  
-    
   }
 
   .fa {
@@ -69,69 +182,18 @@ body, html {
     background: #125688;
     color: white;
   }
-  /*about form*/
- 
-  p {
-    font-size: 20px;
-    font-style: "sans serif";
-  }
-/*portfolio form*/
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 300px;
-    margin-left: 25px;
-  }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-    font-size: 25px;
-  }
- 
-  /*Contact form*/
-  
-  body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+ /*Footer*/
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+ footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
 }
-
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: black;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
- 
 

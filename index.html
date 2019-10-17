@@ -8,6 +8,7 @@
   <title>Updated Portfolio</title>
   <!--css link-->
   <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,48 +21,36 @@
 <body>
 
   <!-- Navbar (sit on top) -->
-  <div class="row">
-    <div class="col">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">MARIAMAY ROBERTS</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </div>
-      </nav>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li class="active"><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
     </div>
-  </div>
+  </nav>
+
   <!-- Header with full-height image -->
-  <header class="bgimg-1" id="home">
+  <div class="bgimg-1" id="home">
     <br><br><br><br>
     <img class="profileImg" src="assets\images\profile.png">
+    <h2>MARIAMAY ROBERTS</h2>
     <h2>FRONT END || WEB DEVELOPER</h2>
-    <h2>LET'S CONNECT!</h2>
-    <div class="icons">
-      <a href="#" class="fa fa-linkedin"></a>
-      <a href="#" class="fa fa-github"></a>
-      <a href="#" class="fa fa-youtube"></a>
-      <a href="#" class="fa fa-google"></a>
-    </div>
-  </header>
-  <br><br><br><br>
+  </div>
+
   <!-- About Section -->
-  <div class="w3-container pull-center" style="padding:128px 16px" id="about">
-    <h3 class="w3-center">ABOUT ME</h3>
-    <hr>
+ <div class="w3-container" style="padding: 50px 16px" id="about"></div>
+  <h1 class="heading1 pull-center">ABOUT ME</h1>
+  <div class="container">
     <div class="row">
       <div class="col-lg-4">
-        <img src="assets\images\profile.png" alt="maria" height="400" width="400">
-      </div>
-      <br><br>
-      <div class="col-lg-6">
-
+        <br><br><br>
         <p>My name is Mariamay Roberts, 29 years old! I was so hesistant to enrolled this coding bootcamp in the
           beginning
           because I have experience about technology, </p>
@@ -72,71 +61,129 @@
         <p>I am so dedicated to learned more about web developer. Except of going to school I'd love also doing some
           volunter works for non-profit organization. </p>
 
-        <p><a href="#portfolio" class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><i class="fa fa-th"> </i> View My Portfolio</a></p> 
+        <p><a href="#portfolio" class="w3-button"><i class="fa fa-th"> </i> VIEW MY PORTFOLIO</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="assets\images\profile.png" alt="maria" height="350" width="350">
+      </div>
+      <div class="col-lg-4">
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>HTML</p>
+        <div class="w3-blue">
+          <div class="w3-container w3-dark-grey w3-center" style="width:70%">70%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>CSS</p>
+        <div class="w3-blue">
+          <div class="w3-container w3-dark-grey w3-center" style="width:50%">50%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>BOOTSTRAP</p>
+        <div class="w3-blue">
+          <div class="w3-container w3-dark-grey w3-center" style="width:50%">50%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>JAVASCRIPT</p>
+        <div class="w3-blue">
+          <div class="w3-container w3-dark-grey w3-center" style="width:40%">40%</div>
+        </div>
       </div>
     </div>
-    <!-- Portfolio Section -->
-    <div class="w3-container pull-center" style="padding:90px 16px" id="portfolio"></div>
+
+   <!--Portfolio page-->
+    <div class="w3-container" style="padding: 50px 16px" id="portfolio"></div>
+    <h1 class="heading1 pull-center">PORTFOLIO</h1>
     <div class="container">
-      <h3>PORTFOLIO</h3>
-      <hr>
       <div class="row">
-        <div class="col">
-          <div class="gallery">
-            <a target="_blank" href="assets\images\trainScheduler.png">
-              <img src="assets\images\trainScheduler.png" alt="Cinque Terre" width="600" height="400">
-            </a>
-            <div class="desc"><a href="https://maria341.github.io/Train-Scheduler/">Train Scheduler</a></div>
-            <h5>This website will provide up-to-date information about various trains, namely their arrival times 
-              and how many minutes remain until they arrive at their station.</h5>
-          </div>
-        </div>
-        
-        <div class="col">
-          <div class="gallery">
-            <a target="_blank" href="assets\images\disney gip.png">
-              <img src="assets\images\disney gip.png" alt="Forest" width="600" height="400">
-            </a>
-            <div class="desc"><a href="https://maria341.github.io/DisneyGifs/">Disney Gif API</a></div>
-            <h5>If the user click again the gif images, It should stop moving.
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\trainScheduler.png" height="250" width="250" alt="train">
 
-              This data is provided by GIPHY API.</h5>
+            <h3><a href="https://maria341.github.io/Train-Scheduler/">TRAIN SCHEDULER</a></h3>
           </div>
         </div>
-        
-        <div class="col">
-          <div class="gallery">
-            <a target="_blank" href="assets\images\crystal.png">
-              <img src="assets\images\crystal.png" alt="Northern Lights" width="600" height="400">
-            </a>
-            <div class="desc">Add a description of the image here</div>
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\disney gip.png" height="250" width="250" alt="giphy">
+
+            <h3><a href="https://maria341.github.io/DisneyGifs/">GIPHY API</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\crystal.png" height="250" width="250" alt="crystal">
+
+            <h3><a href="https://maria341.github.io/Unit-4-Game/">CRYSTAL COLLECTOR GAME</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\brewery.png" height="250" width="250" alt="brewery">
+
+            <h3><a href="https://cchitla.github.io/Brewery-Search/">BREWERY SEARCH</a></h3>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\rockpaper.png" height="250" width="250" alt="Rock Paper Scissors">
+
+            <h3>ROCK PAPER SCISSORS</h3>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="work">
+            <img src="assets\images\trivia.jpg" height="250" width="250" alt="trivia">
+
+            <h3>TRIVIA GAME</h3>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Contact Section -->
-  <div class="w3-container w3-light-grey" style="padding:130px 16px" id="contact">
-    <h3 class="w3-center">CONTACT</h3>
+ 
+  <!--Contact page-->
+  <div class="w3-container" style="padding: 50px 16px" id="contact"></div>
+  <h1 class="heading1 pull-center">CONTACT ME</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <section class="main-section">
+          <form id="contact-form">
 
-    <div class="container">
-        <form action="/action_page.php">
-          <label for="fname">Full Name</label>
-          <input type="text" id="fname" placeholder="Full Name..">
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Email..">
-      
-         <label for="subject">Message</label>
-          <textarea id="subject" type="message" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-        </form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+
+            <input type="submit">
+          </form>
+
+        </section>
       </div>
+
+      <div class="col-">
+        <h4><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Arizona, US</h4>
+        <h4><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Phone: 480261</h4>
+        <h4><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i>Email: mariamayr96@gmail.com</h4>
+        <br>
+        <div class="icons">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="https://github.com/maria341" class="fa fa-github"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-google"></a>
+          </div> 
+      </div>
+    </div>
   </div>
+</div>
+  <!--Footer-->
 
-
-  <!--js link-->
+  <footer>
+    <div class="container">
+      Copyright &copy;Mariamay Roberts
+    </div>
+  </footer>
   <script src="assets\javascript\portfolio.js"></script>
 
 </body>
