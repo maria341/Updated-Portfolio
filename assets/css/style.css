@@ -64,8 +64,8 @@ li a {
     text-align: center;
     font-style: bold;
     font-size: 45px;
-    font-display: "Georgia", "sans serif";
-   }
+    font-family: "Apple Chancery", cursive;
+  }
 
   h3 a {
      color: black;
@@ -145,6 +145,10 @@ li a {
   }
 
   /*Contact Page*/
+
+  .contact-container {
+    padding: 50px 16px;
+  }
 
    #main-container {
     padding-top: 130px;
