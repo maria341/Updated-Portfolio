@@ -3,7 +3,7 @@ Create an updated portfolio!
 
 In this homework we created an updated portfolio .
 
-I only use bootstrap and some css for styling.
+I only use bootstrap mostly on this homework, and some css for other styling.
 
 
 
