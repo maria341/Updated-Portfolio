@@ -6,7 +6,7 @@ body, html {
   /*navbar*/
 .navbar {
   font-size: 3vh;
-  background-color: #AFE0FF;
+  background-color: #FFCCBC;
 }
 li a {
   color: black;
@@ -15,7 +15,7 @@ li a {
 
 .bgimg-1 {
     background-size: cover;
-    background: Linear-gradient(#ba382f, #33F3FF, #ba382f); 
+    background: Linear-gradient(#00887A, #FFCCBC, #00887A); 
     min-height: 100%;
   }
    
@@ -53,11 +53,10 @@ li a {
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
-    color: #ba382f;
+    color: #00887A;
     line-height: 49px;
     border-bottom: 3px solid #dddddd;
     border-bottom-style: dotted;
-   
   }
 
   h2, h3 {
@@ -68,7 +67,8 @@ li a {
   }
 
   h3 a {
-     color: black;
+     color: #00887A;
+     background-color: #FFCCBC;
    }
 
    /*about page*/
@@ -86,67 +86,17 @@ li a {
   }
  
   p {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    color: #00887A;
+    margin-top: 20px;
   }
  
- 
-  /*portfolio page*/
-  #portfolio {
-    background-size: cover;
-    background-image: url("../images1/background3.jpg"); 
-    min-height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .portfolio-container {
-    padding: 50px 16px;
-  }
-  
-  .work {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 0 20px;
-    overflow: auto;
-  }
-  
-  .work:nth-child(even) {
-    margin-right: 10px;
-  }
-  
-  .work img {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-  }
-  
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: black;
-    text-align: center;
-    background: #ba382f;
-    border-bottom: 0;
-  }
-  
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-
-  /*Contact Page*/
+ /*Contact Page*/
 
   .contact-container {
+    margin-top: 30px;
     padding: 50px 16px;
   }
 
@@ -187,7 +137,7 @@ li a {
     height: 35px;
     padding: 0 10px;
     font-size: 14px;
-    border: 1px solid #ba382f;
+    border: 1px solid #FFCCBC;
   }
   
   textarea {
@@ -196,10 +146,10 @@ li a {
   
   input[type=submit] {
     padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
+    font-size: 15px;
+    color: black;
     cursor: pointer;
-    background: #ba382f;
+    background: #FFCCBC;
     border: 0 none;
     margin-top: 10px;
   }
@@ -252,9 +202,13 @@ li a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #666666;
+  background: #FFCCBC;
+  border-top: 8px solid #00887A;
+  height: 60px;
+}
+
+.footer p {
   color: black;
-  text-align: center;
-  border-top: 8px solid #5ebce7;
-  height: 35px;
+  text-align: center; 
+  margin-top: 15px;
 }

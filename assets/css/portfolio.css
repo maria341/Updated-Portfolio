@@ -1,0 +1,131 @@
+body, html {
+	margin: 0;
+	padding: 0;
+   }
+ 
+   /*navbar*/
+ .navbar {
+   font-size: 3vh;
+   background-color: #FFCCBC;
+ }
+ li a {
+   color: black;
+ }
+
+ .album-sec {
+	background-color: #0F292F;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+ }
+
+ .heading1 {
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    color: #C34271;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+    border-bottom-style: dotted;
+    border-bottom-color: #66FCF1;
+  }
+
+  .header h4 {
+	  color: #C34271;
+	  font-size: 25px;
+	  font-style: italic;
+	  font-family: Georgia, Times, "Times New Roman", serif;
+  }
+
+ @import url('https://fonts.googleapis.com/css?family=Galada');
+.header {
+	margin: 3%;
+}
+
+.single-album {
+	position: relative;
+	overflow: hidden;
+	box-shadow: 5px 5px 15px #000;
+}
+
+.album-img {
+	position: relative;
+    overflow: hidden;
+    height: 300px;
+    width: 400px;
+}
+.album-img img {
+	width: 100%;
+	transition: .4s;
+}
+
+.single-album:hover .album-img img {
+	transform: scale(1.5,1.5);
+}
+
+.album-content {
+	height: 80px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	transition: all .4s;
+	background: #0B0C10;
+
+}
+
+.single-album:hover .album-content {
+	height: 240px;
+	background: #1F2833;
+}
+.album-info {
+	transition:all .5s;
+	padding: 5px 20px 5px 20px;
+}
+.album-info h3 {
+	font-size: 16px;
+	color: #66FCF1;
+	margin: 5px;
+	text-transform: uppercase;
+}
+.single-album:hover .album-info h3 {
+	color: #FFCCBC;
+}
+.album-info p {
+	color: #C5C6C7;
+	margin-top: 15px;
+}
+
+.album-text {
+	color: #C34271;
+	padding: 0 10px 5px;
+}
+
+.link {
+	color: #66FCF1;
+	font-style: bold;
+}
+
+/*Footer*/
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #FFCCBC;
+	border-top: 8px solid #00887A;
+	height: 60px;
+  }
+  
+.footer p {
+	color: black;
+	text-align: center; 
+	margin-top: 15px;
+	font-size: 20px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+	margin-top: 20px;
+ }
