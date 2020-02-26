@@ -8,7 +8,6 @@
   <title>Updated Portfolio</title>
   <!--css link-->
   <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,9 +51,12 @@
             firm.
             Dedicated with strong education and training in Full Stack Web Development. Experience with the Front-end
             design and Back-end.
-            <p>I am passionate about writing codes, goal-oriented and as an effective critical thinker and problem-solver,
-             I possess the ability to be a valued part of the team and help my future company grow into the future.</p>
-          <h3><a href="portfolio.html" class="button"><i class="fa fa-th"> </i> VIEW MY PORTFOLIO</a></p>
+            <p>I am passionate about writing codes, goal-oriented and as an effective critical thinker and
+              problem-solver,
+              I would describe myself as a cohesive team member; I am willing and able to do whatever task is necessary
+              to complete the project. </p>
+            <h3><a href="portfolio.html" class="button"><i class="fa fa-th"> </i> VIEW MY PORTFOLIO</a>
+          </p>
           </h3>
         </div>
         <br><br><br>
@@ -63,53 +65,60 @@
         </div>
       </div>
     </div>
-    <br><br>
+    <br><br><br>
+      
     <!--Contact page-->
-    <div class="contact-container" id="contact">
-      <h1 class="heading1 pull-center">CONTACT ME</h1>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <section class="main-section">
-              <form id="contact-form">
-
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Full Name" required="required">
-
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required="required"></textarea>
-
-                <input type="submit">
-              </form>
-
-            </section>
-          </div>
-
-          <div class="col">
-            <h4><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Apache Junction, Arizona, US</h4>
-            <h4><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Phone: 480-261-8707</h4>
-            <h4><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i>Email: mariamayr96@gmail.com</h4>
-            <br>
-            <div class="icons">
-              <a href="https://www.linkedin.com/in/maria-may-roberts-724696189/" class="fa fa-linkedin"></a>
-              <a href="https://github.com/maria341" class="fa fa-github"></a>
-              <a href="#" class="fa fa-google"></a>
+        <div class="contact-container" id="contact">
+          <h1 class="heading1 pull-center">CONTACT ME</h1>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="wrapper">
+                  <div id="error_message"></div>
+                  <form id="myform" onsubmit="return validation()">
+                    <div class="input_field">
+                      <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="input_field">
+                      <input type="text" placeholder="Subject" id="subject">
+                    </div>
+                    <div class="input_field">
+                      <input type="text" placeholder="Email" id="email">
+                    </div>
+                    <div class="input_field">
+                      <input type="text" placeholder="Phone" id="phone">
+                    </div>
+                    <div class="input_field">
+                      <textarea id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn">
+                      <input type="submit" onClick="myFunction()" value="Send">
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <h4><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Apache Junction, Arizona, US</h4>
+                <h4><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i>Phone: 480-261-8707</h4>
+                <h4><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i>Email: mariamayr96@gmail.com</h4>
+                <br>
+                <div class="icons">
+                  <a href="https://www.linkedin.com/in/maria-may-roberts-724696189/" class="fa fa-linkedin"></a>
+                  <a href="https://github.com/maria341" class="fa fa-github"></a>
+                  <a href="#" class="fa fa-google"></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <br><br><br>
-    <!--Footer-->
-
-    <div class="footer">
-      <p>Copyright &copy;Mariamay Roberts</p>
-    </div>
-
+        <br><br><br>
+        <br><br><br>
+        
+        <!--Footer-->
+         <div class="footer">
+          <p>Copyright &copy;Mariamay Roberts</p>
+        </div>
+        <script src="assets\profile.js\profile.js"></script>
 </body>
 
 </html>
